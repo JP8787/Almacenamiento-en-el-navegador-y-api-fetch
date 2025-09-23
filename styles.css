@@ -1,0 +1,53 @@
+.retiro {
+  background-color: #f8d7da !important;
+  color: #842029 !important;
+  font-weight: bold;
+}
+
+/* Nuevo diseño */
+body {
+  background: linear-gradient(180deg, #f7f9fc, #ffffff);
+  min-height: 100vh;
+}
+
+.card-elevated {
+  border: 0;
+  border-radius: 12px;
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.08);
+}
+
+.table-scroll {
+  max-height: 60vh;
+  overflow: auto;
+}
+
+table thead th {
+  position: sticky;
+  top: 0;
+  background: #fff;
+  z-index: 1;
+}
+
+.table-hover tbody tr:hover {
+  background-color: #f3f6fb;
+}
+
+.estado {
+  display: inline-block;
+  padding: 0.2rem 0.5rem;
+  border-radius: 999px;
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+.estado-formacion {
+  background-color: #e8f5e9;
+  color: #1b5e20;
+}
+.estado-cancelado {
+  background-color: #ffebee;
+  color: #b71c1c;
+}
+.estado-retiro {
+  background-color: #fff3cd;
+  color: #7a5c00;
+}
